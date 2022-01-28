@@ -1,0 +1,22 @@
+{
+  "name": "thebeadshop",
+  "version": "1.0.0",
+  "description": "MERN shopping cart ",
+  "main": "server.js ",
+  "scripts": {
+    "start": "node backend/server",
+    "server": "nodemon backend/server",
+     "client": "npm start --prefix frontend",
+     "dev": "concurrently \"npm run server\" \"npm run client\""
+    
+  },
+  "author": "Essi Akpevwe",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "concurrently": "^7.0.0",
+    "nodemon": "^2.0.15"
+  }
+}
