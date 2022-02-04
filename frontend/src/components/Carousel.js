@@ -7,7 +7,7 @@ import { LinkContainer } from 'react-router-bootstrap'
 const Carousel = () => {
     const autoScroll = true; 
     
-    let intervalTime = 5000;
+    let intervalTime = 2000;
     const [currImg, setCurrImg] = useState(0); 
 
    

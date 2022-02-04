@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
-import {Row, Col } from 'react-bootstrap'
+import {Row, Col, Container } from 'react-bootstrap'
 import Product from '../components/Product';
 import Message from '../components/Message'
 import Loader from '../components/Loader'
@@ -22,6 +22,7 @@ const HomeScreen = () => {
 
     return (
         <>
+        <Container>
         <h1>Latest Products</h1>
         {loading ? (
         <Loader /> 
@@ -38,6 +39,7 @@ const HomeScreen = () => {
         ))}
         </Row>
 }
+</Container>
         </>
     )
 };

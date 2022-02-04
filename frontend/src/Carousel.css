@@ -46,8 +46,9 @@ p {
 
  .shopnow {
     background-color: rgb(255, 255, 255, 0.8);
-    border-radius: 9px;
     padding: 15px; 
+    font-size: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .carouselInner .left {

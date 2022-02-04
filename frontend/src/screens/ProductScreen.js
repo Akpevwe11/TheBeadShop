@@ -1,7 +1,7 @@
 import React, { useState, useEffect }from 'react' 
 import { Link, useParams, useNavigate } from 'react-router-dom' 
 import { useDispatch, useSelector } from 'react-redux'
-import { Row, Col, Image, ListGroup, Card, Button, Form  } from 'react-bootstrap'
+import { Row, Col, Image, ListGroup, Card, Button, Form ,Container } from 'react-bootstrap'
 import Rating from '../components/Rating'
 import Message from '../components/Message'
 import Loader from '../components/Loader'
@@ -29,7 +29,7 @@ const ProductScreen = () => {
      }
 
        
-      return <>
+      return <> <Container>
           <Link className='btn btn-dark my-3'  to='/'> 
           Go Back
           </Link>
@@ -116,7 +116,7 @@ const ProductScreen = () => {
           </Row>
 
           )}
-         
+          </Container>
       </>
 
 }
