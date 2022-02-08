@@ -6,14 +6,15 @@
   "scripts": {
     "start": "node backend/server",
     "server": "nodemon backend/server",
-     "client": "npm start --prefix frontend",
-     "dev": "concurrently \"npm run server\" \"npm run client\""
-    
+    "client": "npm start --prefix frontend",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "author": "Essi Akpevwe",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.17.2"
+    "@material-ui/icons": "^4.11.2",
+    "express": "^4.17.2",
+    "styled-components": "^5.3.3"
   },
   "devDependencies": {
     "concurrently": "^7.0.0",

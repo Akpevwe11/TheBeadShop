@@ -51,6 +51,10 @@ p {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.applyfonts{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .carouselInner .left {
     flex: 2%; 
     height: 100%; 
@@ -70,3 +74,4 @@ p {
     color: white; 
     cursor: pointer; 
 }
+
