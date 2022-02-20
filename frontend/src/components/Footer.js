@@ -6,10 +6,13 @@ import 'bootstrap-css-only/css/bootstrap.min.css';
 import 'mdbreact/dist/css/mdb.css';
 
 
+
+
+
 const Footer = () => {
 
     return (
-<MDBFooter color="black" className="font-small pt-4 mt-4">
+<MDBFooter color="black" className="font-small pt-4">
       <MDBContainer fluid className="text-center text-md-left">
         <MDBRow>
         <div className=" d-lg-flex d-xs-inline justify-content-center ">

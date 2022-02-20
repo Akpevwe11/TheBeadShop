@@ -3,7 +3,6 @@ import { Routes, Route} from 'react-router-dom'
 import { Container, Row, Col } from 'react-bootstrap'
 import Header from './components/Header'
 import Footer from './components/Footer'
- import Home from './components/Home' 
 import './App.css';
 import HomeScreen from './screens/HomeScreen'
 import ProductScreen from './screens/ProductScreen'
