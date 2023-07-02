@@ -11,7 +11,7 @@ const app = express()
 // })
 
 app.get('/', (req, res) => {
-    res.send('API is running....')
+    res.sendFile(path.join(__dirname, '../frontend/build/index.html')); 
 })
 
 app.get('/api/categories', (req,res) => {
