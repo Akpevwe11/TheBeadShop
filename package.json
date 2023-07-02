@@ -4,10 +4,10 @@
   "description": "MERN shopping cart ",
   "main": "server.js ",
   "scripts": {
-    "devs ": "node backend/server",
+    "start": "node backend/server",
     "server": "nodemon backend/server",
     "client": "npm start --prefix frontend",
-    "start": "concurrently \"npm run server\" \"npm run client\""
+    "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "author": "Essi Akpevwe",
   "license": "MIT",
