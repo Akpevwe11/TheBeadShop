@@ -4,16 +4,18 @@
   "description": "MERN shopping cart ",
   "main": "server.js ",
   "scripts": {
-    "start": "node backend/server",
+    "devs ": "node backend/server",
     "server": "nodemon backend/server",
-     "client": "npm start --prefix frontend",
-     "dev": "concurrently \"npm run server\" \"npm run client\""
-    
+    "client": "npm start --prefix frontend",
+    "start": "concurrently \"npm run server\" \"npm run client\""
   },
   "author": "Essi Akpevwe",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.17.2"
+    "@material-ui/icons": "^4.11.2",
+    "express": "^4.17.2",
+    "slick-carousel": "^1.8.1",
+    "styled-components": "^5.3.3"
   },
   "devDependencies": {
     "concurrently": "^7.0.0",

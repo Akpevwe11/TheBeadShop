@@ -3,11 +3,16 @@ import { Routes, Route} from 'react-router-dom'
 import { Container, Row, Col } from 'react-bootstrap'
 import Header from './components/Header'
 import Footer from './components/Footer'
-import Carousel from './components/Carousel'
 import './App.css';
 import HomeScreen from './screens/HomeScreen'
 import ProductScreen from './screens/ProductScreen'
 import CartScreen from './screens/CartScreen'
+import LoginScreen from './screens/LoginScreen'
+import RegisterScreen from './screens/RegisterScreen'
+import LandingScreen from './screens/LandingScreen'
+
+
+
 
  const  App = () => {
   return (
@@ -19,9 +24,10 @@ import CartScreen from './screens/CartScreen'
    <main>
       <div class="body">
               <Routes>
-              <Route path='/' element={< Carousel/>} /> 
-              
-              <Route path='/products' element={<HomeScreen />} />
+              <Route path='/' element={<LandingScreen />} /> 
+              <Route path='/login' element={< LoginScreen/>} /> 
+              <Route path='/register' element={< RegisterScreen/>} /> 
+                <Route path='/products' element={<HomeScreen />} />
               <Route path='/product/:id' element={<ProductScreen />}  />
             <Route path='/cart/:id' element={<CartScreen />} />
             <Route path='/cart/' element={<CartScreen />} />
